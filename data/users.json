@@ -1,0 +1,15 @@
+[
+  {
+    "id": "af106b80-efb5-4e58-82e0-ee7878e02e1e",
+    "email": "user@example.com",
+    "name": "string",
+    "country": "string",
+    "division": "string",
+    "city": "",
+    "alias": "string",
+    "trading_style": "",
+    "bio": "",
+    "public_profile": false,
+    "avatar": ""
+  }
+]

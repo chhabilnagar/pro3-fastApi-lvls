@@ -11,7 +11,7 @@ def generate_otp() -> str:
     return str(secrets.randbelow(900000) + 100000)
 
 
-def generate_token() -> str:
+def generate_access_token() -> str:
     return secrets.token_urlsafe(32)
 
 
