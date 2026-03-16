@@ -26,4 +26,19 @@ class RegisterRequest(BaseModel):
     referrer_token: Optional[str] = None
 
     
+# google register request flow
+class GoogleRegisterRequest(BaseModel):
+    access_token: str
+    invite_uuid: Optional[str] = None
+    country: Optional[str] = None
+    city: Optional[str] = None
+    alias: Optional[str] = None
+    trading_style: Optional[str] = ""
+    bio: Optional[str] = ""
+    public_profile: Optional[bool] = False
+
+
+# google login request 
+class GoogleLoginRequest(BaseModel):
+    access_token: str
 
