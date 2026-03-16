@@ -18,7 +18,7 @@ def generate_access_token() -> str:
 
 def is_expired(expires_at: str) -> bool:
     expires_at = datetime.fromisoformat(expires_at)
-    return now_utc() > expires_at
+    return now_utc() >= expires_at
 
 
 def expires_in_minutes(minutes: int) -> str:

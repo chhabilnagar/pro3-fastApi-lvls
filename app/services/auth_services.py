@@ -81,3 +81,16 @@ def register_user(data):
     save_json(settings.USERS_FILE,users)
     return user
 
+
+
+# implemeting google login flow but with access token 
+
+def get_user_by_alias(alias:str):
+    users = load_json(settings.USERS_FILE,[])
+
+    for u in users:
+        if u['alias'] == alias:
+            return u
+        
+    return None
+

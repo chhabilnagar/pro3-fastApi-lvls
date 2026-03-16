@@ -11,5 +11,31 @@
     "bio": "",
     "public_profile": false,
     "avatar": ""
+  },
+  {
+    "id": "dd10e30e-131a-428c-ba08-7daf4c5e9819",
+    "email": "test@example.com",
+    "name": "Test User",
+    "country": "IN",
+    "division": "Delhi",
+    "city": "New Delhi",
+    "alias": "trader123",
+    "trading_style": "swing",
+    "bio": "crypto trader",
+    "public_profile": true,
+    "avatar": ""
+  },
+  {
+    "id": "046053b0-ff6f-4cc2-86de-6a9b6e71fe69",
+    "email": "google_m@google.mock",
+    "name": "Google User",
+    "country": "IN",
+    "division": null,
+    "city": "Mumbai",
+    "alias": "googleTrader",
+    "trading_style": "day",
+    "bio": "google user",
+    "public_profile": false,
+    "avatar": ""
   }
 ]
